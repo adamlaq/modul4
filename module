@@ -1,0 +1,28 @@
+<!DOCTYPE html >
+< html  lang =" fr " >
+< tête >
+	< jeu de caractères méta  =" utf-8 " >
+	< titre > Solution du module 4 </ titre >
+	<script> _ _
+		var  noms  =  [ ] ;  // NE PAS ENLEVER
+	</script> _ _
+	< script  src =" SpeakHello.js " > </ script >
+	< script  src =" SpeakGoodBye.js " > </ script >
+	< script  src =" script.js " > </ script >
+</ tête >
+< corps >
+	< h1 > Solution module 4 </ h1 >
+</ corps >
+</html> 
+( fonction ( fenêtre )  {
+	var  noms  =  [ "Yaakov" ,  "John" ,  "Jen" ,  "Jason" ,  "Paul" ,  "Frank" ,  "Larry" ,  "Paula" ,  "Laura" ,  "Jim" ] ;
+	for ( var  nom  dans  noms )  {
+		var  firstLetter  =  noms [ nom ] . charAt ( ) . toLowerCase ( ) ;
+		// console.log("La première lettre du nom est : " + firstLetter);
+		si  ( premièreLettre  ===  "j" )  {
+			byeSpeaker . parler ( noms [ nom ] ) ;
+		}  sinon  {
+			bonjour l'intervenant . parler ( noms [ nom ] ) ;
+		}
+	}
+} ) ( fenêtre ) ;
